@@ -1,0 +1,11 @@
+<p>rooms</p>
+
+<h4>Olá temos, {{numberOfRooms}} quartos disponiveis</h4>
+<!--interpolação-->
+<h4> Recomendamos o Quarto: </h4>
+<a href="#" [innerText]="recommendedRoom" (click)="selectRoom()"></a>
+<!--sem a interpolação, esse código seria:
+  document.getElementById("recommendedRoom").innerText = recommendedRoom
+-->
+
+<!--<button (click)="toggle()">toggle</button>-->
