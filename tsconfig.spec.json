@@ -1,4 +1,5 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// here we can define all sets to your unit tests
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
