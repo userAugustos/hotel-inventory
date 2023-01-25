@@ -6,22 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Algumas Notas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Então com angular podemos usar de 3 principais métodos para trabalhar dados com nosso html
 
-## Further help
+* Interpolação: Interpolação aqui se refere a incorporar dados no html, normalmente usamos os {{}}.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Property binding: é uma forma de associar propriedades entre o template (arquivo html) e o component (arquivo typescript).
+Essa associação pode ser feita utilizando a sintaxe dos colchetes ou das chaves duplas (interpolação).
+Então, property binding no angular, nos permite usar propriedades de elementos da DOM, que antes usariamos com javascript (veja no romms.html)
+
+* Event Binding: No Angular temos o banana syntax, que serve para termos angular event no html
